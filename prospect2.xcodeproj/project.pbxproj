@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F54A2B215D03E10009A2453 /* Lullwater.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2B115D03E10009A2453 /* Lullwater.png */; };
+		4F54A2B515D03E99009A2453 /* Loop.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2B415D03E99009A2453 /* Loop.png */; };
+		4F54A2B715D0415E009A2453 /* Midwood.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2B615D0415E009A2453 /* Midwood.png */; };
+		4F54A2BA15D042A9009A2453 /* Peninsula.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2B815D042A9009A2453 /* Peninsula.png */; };
+		4F54A2BB15D042A9009A2453 /* Waterfall.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2B915D042A9009A2453 /* Waterfall.png */; };
+		4F54A2BF15D04902009A2453 /* TrailsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2BE15D04902009A2453 /* TrailsIcon.png */; };
+		4F54A2CB15D057A0009A2453 /* EventsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2CA15D057A0009A2453 /* EventsIcon.png */; };
+		4F54A2CD15D058F4009A2453 /* VolunteerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2CC15D058F4009A2453 /* VolunteerIcon.png */; };
+		4F54A2CF15D05AB3009A2453 /* NatureIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2CE15D05AB3009A2453 /* NatureIcon.png */; };
+		4F54A2D115D05C66009A2453 /* ConnectIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2D015D05C66009A2453 /* ConnectIcon.png */; };
+		4FA1E36815DBEA700004B93C /* ProspectIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FA1E36715DBEA6F0004B93C /* ProspectIcon.png */; };
+		4FA2ED2615CC5CFC009D3625 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA2ED2515CC5CFC009D3625 /* UIKit.framework */; };
+		4FA2ED2815CC5CFC009D3625 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA2ED2715CC5CFC009D3625 /* Foundation.framework */; };
+		4FA2ED2A15CC5CFC009D3625 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA2ED2915CC5CFC009D3625 /* CoreGraphics.framework */; };
+		4FA2ED3015CC5CFC009D3625 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FA2ED2E15CC5CFC009D3625 /* InfoPlist.strings */; };
+		4FA2ED3215CC5CFC009D3625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2ED3115CC5CFC009D3625 /* main.m */; };
+		4FA2ED3615CC5CFC009D3625 /* prospectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2ED3515CC5CFC009D3625 /* prospectAppDelegate.m */; };
+		4FA2ED3E15CC5CFD009D3625 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA2ED3D15CC5CFD009D3625 /* SenTestingKit.framework */; };
+		4FA2ED3F15CC5CFD009D3625 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA2ED2515CC5CFC009D3625 /* UIKit.framework */; };
+		4FA2ED4015CC5CFD009D3625 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA2ED2715CC5CFC009D3625 /* Foundation.framework */; };
+		4FA2ED4815CC5CFD009D3625 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FA2ED4615CC5CFD009D3625 /* InfoPlist.strings */; };
+		4FA2ED4B15CC5CFD009D3625 /* prospect2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2ED4A15CC5CFD009D3625 /* prospect2Tests.m */; };
+		4FA2ED5A15CC5D3E009D3625 /* trailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2ED5915CC5D3E009D3625 /* trailsTableViewController.m */; };
+		4FC8944E15D9967D008B8AC2 /* VisitIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FC8944D15D9967D008B8AC2 /* VisitIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FA2ED4115CC5CFD009D3625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FA2ED1815CC5CFC009D3625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FA2ED2015CC5CFC009D3625;
+			remoteInfo = prospect2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F54A2B115D03E10009A2453 /* Lullwater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lullwater.png; path = "Supporting files/Lullwater.png"; sourceTree = "<group>"; };
+		4F54A2B415D03E99009A2453 /* Loop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Loop.png; path = "Supporting files/Loop.png"; sourceTree = "<group>"; };
+		4F54A2B615D0415E009A2453 /* Midwood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Midwood.png; path = "Supporting files/Midwood.png"; sourceTree = "<group>"; };
+		4F54A2B815D042A9009A2453 /* Peninsula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Peninsula.png; path = "Supporting files/Peninsula.png"; sourceTree = "<group>"; };
+		4F54A2B915D042A9009A2453 /* Waterfall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Waterfall.png; path = "Supporting files/Waterfall.png"; sourceTree = "<group>"; };
+		4F54A2BE15D04902009A2453 /* TrailsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrailsIcon.png; path = "Supporting files/TrailsIcon.png"; sourceTree = "<group>"; };
+		4F54A2CA15D057A0009A2453 /* EventsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EventsIcon.png; path = "Supporting files/EventsIcon.png"; sourceTree = "<group>"; };
+		4F54A2CC15D058F4009A2453 /* VolunteerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VolunteerIcon.png; path = "Supporting files/VolunteerIcon.png"; sourceTree = "<group>"; };
+		4F54A2CE15D05AB3009A2453 /* NatureIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NatureIcon.png; path = "Supporting files/NatureIcon.png"; sourceTree = "<group>"; };
+		4F54A2D015D05C66009A2453 /* ConnectIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ConnectIcon.png; path = "Supporting files/ConnectIcon.png"; sourceTree = "<group>"; };
+		4FA1E36715DBEA6F0004B93C /* ProspectIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ProspectIcon.png; path = "Supporting files/ProspectIcon.png"; sourceTree = "<group>"; };
+		4FA2ED2115CC5CFC009D3625 /* prospect2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prospect2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA2ED2515CC5CFC009D3625 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4FA2ED2715CC5CFC009D3625 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4FA2ED2915CC5CFC009D3625 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4FA2ED2D15CC5CFC009D3625 /* prospect2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "prospect2-Info.plist"; sourceTree = "<group>"; };
+		4FA2ED2F15CC5CFC009D3625 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FA2ED3115CC5CFC009D3625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FA2ED3315CC5CFC009D3625 /* prospect2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "prospect2-Prefix.pch"; sourceTree = "<group>"; };
+		4FA2ED3415CC5CFC009D3625 /* prospectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prospectAppDelegate.h; sourceTree = "<group>"; };
+		4FA2ED3515CC5CFC009D3625 /* prospectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prospectAppDelegate.m; sourceTree = "<group>"; };
+		4FA2ED3C15CC5CFD009D3625 /* prospect2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prospect2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA2ED3D15CC5CFD009D3625 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4FA2ED4515CC5CFD009D3625 /* prospect2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "prospect2Tests-Info.plist"; sourceTree = "<group>"; };
+		4FA2ED4715CC5CFD009D3625 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FA2ED4915CC5CFD009D3625 /* prospect2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prospect2Tests.h; sourceTree = "<group>"; };
+		4FA2ED4A15CC5CFD009D3625 /* prospect2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prospect2Tests.m; sourceTree = "<group>"; };
+		4FA2ED5815CC5D3E009D3625 /* trailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trailsTableViewController.h; sourceTree = "<group>"; };
+		4FA2ED5915CC5D3E009D3625 /* trailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trailsTableViewController.m; sourceTree = "<group>"; };
+		4FC8944D15D9967D008B8AC2 /* VisitIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VisitIcon.png; path = "Supporting files/VisitIcon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FA2ED1E15CC5CFC009D3625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA2ED2615CC5CFC009D3625 /* UIKit.framework in Frameworks */,
+				4FA2ED2815CC5CFC009D3625 /* Foundation.framework in Frameworks */,
+				4FA2ED2A15CC5CFC009D3625 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA2ED3815CC5CFD009D3625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA2ED3E15CC5CFD009D3625 /* SenTestingKit.framework in Frameworks */,
+				4FA2ED3F15CC5CFD009D3625 /* UIKit.framework in Frameworks */,
+				4FA2ED4015CC5CFD009D3625 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FA2ED1615CC5CFC009D3625 = {
+			isa = PBXGroup;
+			children = (
+				4FA2ED2B15CC5CFC009D3625 /* prospect2 */,
+				4FA2ED4315CC5CFD009D3625 /* prospect2Tests */,
+				4FA2ED2415CC5CFC009D3625 /* Frameworks */,
+				4FA2ED2215CC5CFC009D3625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FA2ED2215CC5CFC009D3625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FA2ED2115CC5CFC009D3625 /* prospect2.app */,
+				4FA2ED3C15CC5CFD009D3625 /* prospect2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FA2ED2415CC5CFC009D3625 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FA2ED2515CC5CFC009D3625 /* UIKit.framework */,
+				4FA2ED2715CC5CFC009D3625 /* Foundation.framework */,
+				4FA2ED2915CC5CFC009D3625 /* CoreGraphics.framework */,
+				4FA2ED3D15CC5CFD009D3625 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FA2ED2B15CC5CFC009D3625 /* prospect2 */ = {
+			isa = PBXGroup;
+			children = (
+				4FA2ED3415CC5CFC009D3625 /* prospectAppDelegate.h */,
+				4FA2ED3515CC5CFC009D3625 /* prospectAppDelegate.m */,
+				4FA2ED5815CC5D3E009D3625 /* trailsTableViewController.h */,
+				4FA2ED5915CC5D3E009D3625 /* trailsTableViewController.m */,
+				4F54A2B415D03E99009A2453 /* Loop.png */,
+				4F54A2B615D0415E009A2453 /* Midwood.png */,
+				4F54A2B815D042A9009A2453 /* Peninsula.png */,
+				4F54A2B915D042A9009A2453 /* Waterfall.png */,
+				4F54A2CC15D058F4009A2453 /* VolunteerIcon.png */,
+				4F54A2BE15D04902009A2453 /* TrailsIcon.png */,
+				4FC8944D15D9967D008B8AC2 /* VisitIcon.png */,
+				4FA1E36715DBEA6F0004B93C /* ProspectIcon.png */,
+				4F54A2D015D05C66009A2453 /* ConnectIcon.png */,
+				4F54A2CE15D05AB3009A2453 /* NatureIcon.png */,
+				4F54A2CA15D057A0009A2453 /* EventsIcon.png */,
+				4F54A2B115D03E10009A2453 /* Lullwater.png */,
+				4FA2ED2C15CC5CFC009D3625 /* Supporting Files */,
+			);
+			path = prospect2;
+			sourceTree = "<group>";
+		};
+		4FA2ED2C15CC5CFC009D3625 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FA2ED2D15CC5CFC009D3625 /* prospect2-Info.plist */,
+				4FA2ED2E15CC5CFC009D3625 /* InfoPlist.strings */,
+				4FA2ED3115CC5CFC009D3625 /* main.m */,
+				4FA2ED3315CC5CFC009D3625 /* prospect2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FA2ED4315CC5CFD009D3625 /* prospect2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4FA2ED4915CC5CFD009D3625 /* prospect2Tests.h */,
+				4FA2ED4A15CC5CFD009D3625 /* prospect2Tests.m */,
+				4FA2ED4415CC5CFD009D3625 /* Supporting Files */,
+			);
+			path = prospect2Tests;
+			sourceTree = "<group>";
+		};
+		4FA2ED4415CC5CFD009D3625 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FA2ED4515CC5CFD009D3625 /* prospect2Tests-Info.plist */,
+				4FA2ED4615CC5CFD009D3625 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FA2ED2015CC5CFC009D3625 /* prospect2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA2ED4E15CC5CFD009D3625 /* Build configuration list for PBXNativeTarget "prospect2" */;
+			buildPhases = (
+				4FA2ED1D15CC5CFC009D3625 /* Sources */,
+				4FA2ED1E15CC5CFC009D3625 /* Frameworks */,
+				4FA2ED1F15CC5CFC009D3625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prospect2;
+			productName = prospect2;
+			productReference = 4FA2ED2115CC5CFC009D3625 /* prospect2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FA2ED3B15CC5CFD009D3625 /* prospect2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA2ED5115CC5CFD009D3625 /* Build configuration list for PBXNativeTarget "prospect2Tests" */;
+			buildPhases = (
+				4FA2ED3715CC5CFD009D3625 /* Sources */,
+				4FA2ED3815CC5CFD009D3625 /* Frameworks */,
+				4FA2ED3915CC5CFD009D3625 /* Resources */,
+				4FA2ED3A15CC5CFD009D3625 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FA2ED4215CC5CFD009D3625 /* PBXTargetDependency */,
+			);
+			name = prospect2Tests;
+			productName = prospect2Tests;
+			productReference = 4FA2ED3C15CC5CFD009D3625 /* prospect2Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FA2ED1815CC5CFC009D3625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = prospect;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4FA2ED1B15CC5CFC009D3625 /* Build configuration list for PBXProject "prospect2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4FA2ED1615CC5CFC009D3625;
+			productRefGroup = 4FA2ED2215CC5CFC009D3625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FA2ED2015CC5CFC009D3625 /* prospect2 */,
+				4FA2ED3B15CC5CFD009D3625 /* prospect2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FA2ED1F15CC5CFC009D3625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA2ED3015CC5CFC009D3625 /* InfoPlist.strings in Resources */,
+				4F54A2B215D03E10009A2453 /* Lullwater.png in Resources */,
+				4F54A2B515D03E99009A2453 /* Loop.png in Resources */,
+				4F54A2B715D0415E009A2453 /* Midwood.png in Resources */,
+				4F54A2BA15D042A9009A2453 /* Peninsula.png in Resources */,
+				4F54A2BB15D042A9009A2453 /* Waterfall.png in Resources */,
+				4F54A2BF15D04902009A2453 /* TrailsIcon.png in Resources */,
+				4F54A2CB15D057A0009A2453 /* EventsIcon.png in Resources */,
+				4F54A2CD15D058F4009A2453 /* VolunteerIcon.png in Resources */,
+				4F54A2CF15D05AB3009A2453 /* NatureIcon.png in Resources */,
+				4F54A2D115D05C66009A2453 /* ConnectIcon.png in Resources */,
+				4FC8944E15D9967D008B8AC2 /* VisitIcon.png in Resources */,
+				4FA1E36815DBEA700004B93C /* ProspectIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA2ED3915CC5CFD009D3625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA2ED4815CC5CFD009D3625 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FA2ED3A15CC5CFD009D3625 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FA2ED1D15CC5CFC009D3625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA2ED3215CC5CFC009D3625 /* main.m in Sources */,
+				4FA2ED3615CC5CFC009D3625 /* prospectAppDelegate.m in Sources */,
+				4FA2ED5A15CC5D3E009D3625 /* trailsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA2ED3715CC5CFD009D3625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA2ED4B15CC5CFD009D3625 /* prospect2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FA2ED4215CC5CFD009D3625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FA2ED2015CC5CFC009D3625 /* prospect2 */;
+			targetProxy = 4FA2ED4115CC5CFD009D3625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FA2ED2E15CC5CFC009D3625 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FA2ED2F15CC5CFC009D3625 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4FA2ED4615CC5CFD009D3625 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FA2ED4715CC5CFD009D3625 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FA2ED4C15CC5CFD009D3625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FA2ED4D15CC5CFD009D3625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FA2ED4F15CC5CFD009D3625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "prospect2/prospect2-Prefix.pch";
+				INFOPLIST_FILE = "prospect2/prospect2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4FA2ED5015CC5CFD009D3625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "prospect2/prospect2-Prefix.pch";
+				INFOPLIST_FILE = "prospect2/prospect2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4FA2ED5215CC5CFD009D3625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/prospect2.app/prospect2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "prospect2/prospect2-Prefix.pch";
+				INFOPLIST_FILE = "prospect2Tests/prospect2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4FA2ED5315CC5CFD009D3625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/prospect2.app/prospect2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "prospect2/prospect2-Prefix.pch";
+				INFOPLIST_FILE = "prospect2Tests/prospect2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FA2ED1B15CC5CFC009D3625 /* Build configuration list for PBXProject "prospect2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA2ED4C15CC5CFD009D3625 /* Debug */,
+				4FA2ED4D15CC5CFD009D3625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA2ED4E15CC5CFD009D3625 /* Build configuration list for PBXNativeTarget "prospect2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA2ED4F15CC5CFD009D3625 /* Debug */,
+				4FA2ED5015CC5CFD009D3625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA2ED5115CC5CFD009D3625 /* Build configuration list for PBXNativeTarget "prospect2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA2ED5215CC5CFD009D3625 /* Debug */,
+				4FA2ED5315CC5CFD009D3625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FA2ED1815CC5CFC009D3625 /* Project object */;
+}
