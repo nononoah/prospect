@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F16711E15E2EDAE007F3B27 /* trailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F16711D15E2EDAE007F3B27 /* trailsView.m */; };
+		4F3F552A1614DC86003E987A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3F55291614DC85003E987A /* Default-568h@2x.png */; };
 		4F54A2B215D03E10009A2453 /* Lullwater.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2B115D03E10009A2453 /* Lullwater.png */; };
 		4F54A2B515D03E99009A2453 /* Loop.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2B415D03E99009A2453 /* Loop.png */; };
 		4F54A2B715D0415E009A2453 /* Midwood.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2B615D0415E009A2453 /* Midwood.png */; };
@@ -17,6 +19,7 @@
 		4F54A2CD15D058F4009A2453 /* VolunteerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2CC15D058F4009A2453 /* VolunteerIcon.png */; };
 		4F54A2CF15D05AB3009A2453 /* NatureIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2CE15D05AB3009A2453 /* NatureIcon.png */; };
 		4F54A2D115D05C66009A2453 /* ConnectIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F54A2D015D05C66009A2453 /* ConnectIcon.png */; };
+		4F6E2EB6161DDD7100B18831 /* trailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6E2EB5161DDD7100B18831 /* trailsViewController.m */; };
 		4FA1E36815DBEA700004B93C /* ProspectIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FA1E36715DBEA6F0004B93C /* ProspectIcon.png */; };
 		4FA2ED2615CC5CFC009D3625 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA2ED2515CC5CFC009D3625 /* UIKit.framework */; };
 		4FA2ED2815CC5CFC009D3625 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA2ED2715CC5CFC009D3625 /* Foundation.framework */; };
@@ -30,6 +33,13 @@
 		4FA2ED4815CC5CFD009D3625 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FA2ED4615CC5CFD009D3625 /* InfoPlist.strings */; };
 		4FA2ED4B15CC5CFD009D3625 /* prospect2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2ED4A15CC5CFD009D3625 /* prospect2Tests.m */; };
 		4FA2ED5A15CC5D3E009D3625 /* trailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2ED5915CC5D3E009D3625 /* trailsTableViewController.m */; };
+		4FAEBC9D1614C03B00660714 /* West Loop and Center Drive.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAEBC9C1614C03B00660714 /* West Loop and Center Drive.png */; };
+		4FAEBCA01614C04200660714 /* East Loop and Center Drive.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAEBC9F1614C04200660714 /* East Loop and Center Drive.png */; };
+		4FAEBCA31614C45C00660714 /* Bandshell, Audobon, Zoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAEBCA21614C45C00660714 /* Bandshell, Audobon, Zoo.png */; };
+		4FAEBCA51614C46300660714 /* Above Flatbush.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAEBCA41614C46300660714 /* Above Flatbush.png */; };
+		4FAEBCA71614C47000660714 /* The Grassy Loop.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAEBCA61614C47000660714 /* The Grassy Loop.png */; };
+		4FAEBCAA1614C48B00660714 /* Lakeside.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAEBCA81614C48B00660714 /* Lakeside.png */; };
+		4FAEBCAB1614C48B00660714 /* Long Meadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAEBCA91614C48B00660714 /* Long Meadow.png */; };
 		4FC8944E15D9967D008B8AC2 /* VisitIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FC8944D15D9967D008B8AC2 /* VisitIcon.png */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F16711C15E2EDAE007F3B27 /* trailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trailsView.h; sourceTree = "<group>"; };
+		4F16711D15E2EDAE007F3B27 /* trailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trailsView.m; sourceTree = "<group>"; };
+		4F3F55291614DC85003E987A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Supporting files/Default-568h@2x.png"; sourceTree = "<group>"; };
 		4F54A2B115D03E10009A2453 /* Lullwater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lullwater.png; path = "Supporting files/Lullwater.png"; sourceTree = "<group>"; };
 		4F54A2B415D03E99009A2453 /* Loop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Loop.png; path = "Supporting files/Loop.png"; sourceTree = "<group>"; };
 		4F54A2B615D0415E009A2453 /* Midwood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Midwood.png; path = "Supporting files/Midwood.png"; sourceTree = "<group>"; };
@@ -54,6 +67,8 @@
 		4F54A2CC15D058F4009A2453 /* VolunteerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VolunteerIcon.png; path = "Supporting files/VolunteerIcon.png"; sourceTree = "<group>"; };
 		4F54A2CE15D05AB3009A2453 /* NatureIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NatureIcon.png; path = "Supporting files/NatureIcon.png"; sourceTree = "<group>"; };
 		4F54A2D015D05C66009A2453 /* ConnectIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ConnectIcon.png; path = "Supporting files/ConnectIcon.png"; sourceTree = "<group>"; };
+		4F6E2EB4161DDD7100B18831 /* trailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trailsViewController.h; sourceTree = "<group>"; };
+		4F6E2EB5161DDD7100B18831 /* trailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trailsViewController.m; sourceTree = "<group>"; };
 		4FA1E36715DBEA6F0004B93C /* ProspectIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ProspectIcon.png; path = "Supporting files/ProspectIcon.png"; sourceTree = "<group>"; };
 		4FA2ED2115CC5CFC009D3625 /* prospect2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prospect2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA2ED2515CC5CFC009D3625 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -73,6 +88,13 @@
 		4FA2ED4A15CC5CFD009D3625 /* prospect2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prospect2Tests.m; sourceTree = "<group>"; };
 		4FA2ED5815CC5D3E009D3625 /* trailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trailsTableViewController.h; sourceTree = "<group>"; };
 		4FA2ED5915CC5D3E009D3625 /* trailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trailsTableViewController.m; sourceTree = "<group>"; };
+		4FAEBC9C1614C03B00660714 /* West Loop and Center Drive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "West Loop and Center Drive.png"; path = "Supporting files/West Loop and Center Drive.png"; sourceTree = "<group>"; };
+		4FAEBC9F1614C04200660714 /* East Loop and Center Drive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "East Loop and Center Drive.png"; path = "Supporting files/East Loop and Center Drive.png"; sourceTree = "<group>"; };
+		4FAEBCA21614C45C00660714 /* Bandshell, Audobon, Zoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bandshell, Audobon, Zoo.png"; path = "Supporting files/Bandshell, Audobon, Zoo.png"; sourceTree = "<group>"; };
+		4FAEBCA41614C46300660714 /* Above Flatbush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Above Flatbush.png"; path = "Supporting files/Above Flatbush.png"; sourceTree = "<group>"; };
+		4FAEBCA61614C47000660714 /* The Grassy Loop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "The Grassy Loop.png"; path = "Supporting files/The Grassy Loop.png"; sourceTree = "<group>"; };
+		4FAEBCA81614C48B00660714 /* Lakeside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lakeside.png; path = "Supporting files/Lakeside.png"; sourceTree = "<group>"; };
+		4FAEBCA91614C48B00660714 /* Long Meadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Long Meadow.png"; path = "Supporting files/Long Meadow.png"; sourceTree = "<group>"; };
 		4FC8944D15D9967D008B8AC2 /* VisitIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VisitIcon.png; path = "Supporting files/VisitIcon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,18 +159,11 @@
 				4FA2ED3515CC5CFC009D3625 /* prospectAppDelegate.m */,
 				4FA2ED5815CC5D3E009D3625 /* trailsTableViewController.h */,
 				4FA2ED5915CC5D3E009D3625 /* trailsTableViewController.m */,
-				4F54A2B415D03E99009A2453 /* Loop.png */,
-				4F54A2B615D0415E009A2453 /* Midwood.png */,
-				4F54A2B815D042A9009A2453 /* Peninsula.png */,
-				4F54A2B915D042A9009A2453 /* Waterfall.png */,
-				4F54A2CC15D058F4009A2453 /* VolunteerIcon.png */,
-				4F54A2BE15D04902009A2453 /* TrailsIcon.png */,
-				4FC8944D15D9967D008B8AC2 /* VisitIcon.png */,
-				4FA1E36715DBEA6F0004B93C /* ProspectIcon.png */,
-				4F54A2D015D05C66009A2453 /* ConnectIcon.png */,
-				4F54A2CE15D05AB3009A2453 /* NatureIcon.png */,
-				4F54A2CA15D057A0009A2453 /* EventsIcon.png */,
-				4F54A2B115D03E10009A2453 /* Lullwater.png */,
+				4F6E2EB4161DDD7100B18831 /* trailsViewController.h */,
+				4F6E2EB5161DDD7100B18831 /* trailsViewController.m */,
+				4F16711C15E2EDAE007F3B27 /* trailsView.h */,
+				4F16711D15E2EDAE007F3B27 /* trailsView.m */,
+				4FAEBCA11614C42400660714 /* Images, map icons */,
 				4FA2ED2C15CC5CFC009D3625 /* Supporting Files */,
 			);
 			path = prospect2;
@@ -160,6 +175,7 @@
 				4FA2ED2D15CC5CFC009D3625 /* prospect2-Info.plist */,
 				4FA2ED2E15CC5CFC009D3625 /* InfoPlist.strings */,
 				4FA2ED3115CC5CFC009D3625 /* main.m */,
+				4F3F55291614DC85003E987A /* Default-568h@2x.png */,
 				4FA2ED3315CC5CFC009D3625 /* prospect2-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -182,6 +198,32 @@
 				4FA2ED4615CC5CFD009D3625 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FAEBCA11614C42400660714 /* Images, map icons */ = {
+			isa = PBXGroup;
+			children = (
+				4F54A2B415D03E99009A2453 /* Loop.png */,
+				4F54A2B615D0415E009A2453 /* Midwood.png */,
+				4F54A2B815D042A9009A2453 /* Peninsula.png */,
+				4F54A2B915D042A9009A2453 /* Waterfall.png */,
+				4F54A2CC15D058F4009A2453 /* VolunteerIcon.png */,
+				4FAEBC9F1614C04200660714 /* East Loop and Center Drive.png */,
+				4F54A2BE15D04902009A2453 /* TrailsIcon.png */,
+				4FAEBCA61614C47000660714 /* The Grassy Loop.png */,
+				4FAEBCA81614C48B00660714 /* Lakeside.png */,
+				4FAEBCA91614C48B00660714 /* Long Meadow.png */,
+				4FAEBCA21614C45C00660714 /* Bandshell, Audobon, Zoo.png */,
+				4FC8944D15D9967D008B8AC2 /* VisitIcon.png */,
+				4FAEBCA41614C46300660714 /* Above Flatbush.png */,
+				4FA1E36715DBEA6F0004B93C /* ProspectIcon.png */,
+				4FAEBC9C1614C03B00660714 /* West Loop and Center Drive.png */,
+				4F54A2D015D05C66009A2453 /* ConnectIcon.png */,
+				4F54A2CE15D05AB3009A2453 /* NatureIcon.png */,
+				4F54A2CA15D057A0009A2453 /* EventsIcon.png */,
+				4F54A2B115D03E10009A2453 /* Lullwater.png */,
+			);
+			name = "Images, map icons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +310,14 @@
 				4F54A2D115D05C66009A2453 /* ConnectIcon.png in Resources */,
 				4FC8944E15D9967D008B8AC2 /* VisitIcon.png in Resources */,
 				4FA1E36815DBEA700004B93C /* ProspectIcon.png in Resources */,
+				4FAEBC9D1614C03B00660714 /* West Loop and Center Drive.png in Resources */,
+				4FAEBCA01614C04200660714 /* East Loop and Center Drive.png in Resources */,
+				4FAEBCA31614C45C00660714 /* Bandshell, Audobon, Zoo.png in Resources */,
+				4FAEBCA51614C46300660714 /* Above Flatbush.png in Resources */,
+				4FAEBCA71614C47000660714 /* The Grassy Loop.png in Resources */,
+				4FAEBCAA1614C48B00660714 /* Lakeside.png in Resources */,
+				4FAEBCAB1614C48B00660714 /* Long Meadow.png in Resources */,
+				4F3F552A1614DC86003E987A /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +355,8 @@
 				4FA2ED3215CC5CFC009D3625 /* main.m in Sources */,
 				4FA2ED3615CC5CFC009D3625 /* prospectAppDelegate.m in Sources */,
 				4FA2ED5A15CC5D3E009D3625 /* trailsTableViewController.m in Sources */,
+				4F16711E15E2EDAE007F3B27 /* trailsView.m in Sources */,
+				4F6E2EB6161DDD7100B18831 /* trailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

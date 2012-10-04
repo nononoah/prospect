@@ -7,10 +7,9 @@
 //
 
 #import "trailsTableViewController.h"
+#import "trailsViewController.h"
+#import "prospectAppDelegate.h"
 
-@interface trailsTableViewController ()
-
-@end
 
 @implementation trailsTableViewController
 
@@ -19,21 +18,28 @@
     self = [super initWithStyle: style];
 	if (self) {
 		// Custom initialization
-		trails = [NSArray arrayWithObjects:
+        trails = [NSArray arrayWithObjects:
                   @"Loop",
-                  @"Lullwater",
+                  @"East Loop and Center Drive",
+                  @"West Loop and Center Drive",
+                  @"The Grassy Loop",
+                  @"Long Meadow",
+                  @"Lakeside",
+                  @"Above Flatbush",
+                  @"Bandshell, Audobon, Zoo",
                   @"Midwood",
                   @"Peninsula",
+                  @"Lullwater",
                   @"Waterfall",
                   nil
                   ];
-        
-		//Three default values from class UIScrollView.
+                  
 		self.tableView.bounces = YES;
 		self.tableView.scrollsToTop = YES;
 		self.tableView.decelerationRate = UIScrollViewDecelerationRateNormal;
         self.tableView.backgroundColor = [UIColor grayColor];
         self.tableView.tableFooterView = [UIView new];
+		
 	}
 	return self;
 }
@@ -44,6 +50,7 @@
 - (void) viewDidLoad
 {
 	[super viewDidLoad];
+
     
 	// Uncomment the following line to preserve selection between presentations.
 	// self.clearsSelectionOnViewWillAppear = NO;
@@ -97,14 +104,14 @@
 - (NSInteger) tableView: (UITableView *) tableView numberOfRowsInSection: (NSInteger) section
 {
 	switch (section){
-            case 0:
-            	return 5;
+            case 0:                                 
+            	return 3;
             	break;
             case 1:
-            	return 5;
+            	return 4;
                 break;
             case 2:
-            	return 5;
+            	return 4;
                 break;
     }
     return 0;
@@ -145,7 +152,19 @@
 	// Configure the cell...
 	//The .textLabel and .detailTextLabel properties are UILabels.
 	//The .imageView property is a UIImage.
-	cell.textLabel.text = [trails objectAtIndex: indexPath.row];
+    if (indexPath.section == 0){
+        NSInteger correctCell = indexPath.row;
+        cell.textLabel.text = [trails objectAtIndex: correctCell];
+    }
+    	else if (indexPath.section == 1){
+        NSInteger correctCell = indexPath.row + 3;
+        cell.textLabel.text = [trails objectAtIndex: correctCell];
+        }
+    else{
+        NSInteger correctCell = indexPath.row  + 7;
+        cell.textLabel.text = [trails objectAtIndex: correctCell];
+    }    
+
 	NSString *fileName = [cell.textLabel.text stringByAppendingString: @".png"];
 	cell.imageView.image = [UIImage imageNamed: fileName];	//nil if .jpg file doesn't exist
 	return cell;
@@ -194,8 +213,28 @@
 
 - (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath
 {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Cell pressed" message:[NSString stringWithFormat:@"Cell #%i in section #%i",indexPath.row,indexPath.section] delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-	[alert show];
-}
 
+    //prospectAppDelegate *applicationDelegate = [UIApplication sharedApplication].delegate;
+	
+    //this is the spot where I can pass the trailViewController information
+    //NSString *information = [applicationDelegate.information objectForKey: self.title];
+	
+    NSInteger correctCell = 0;
+    
+    if (indexPath.section == 0){
+        correctCell = indexPath.row;
+    }
+    else if (indexPath.section == 1){
+        correctCell = indexPath.row + 3;
+    }
+    else{
+        correctCell = indexPath.row + 7;
+    }
+    
+
+    trailsVC = [[trailsViewController alloc] initWithTitle: [trails objectAtIndex: correctCell] information: @"hi"];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController: trailsVC];
+    
+	[self presentModalViewController: navigationController animated: YES];
+}
 @end

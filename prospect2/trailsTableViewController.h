@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@class trailsViewController;
 
 @interface trailsTableViewController : UITableViewController
 {
-    NSArray *trails;
+	NSArray *trails;   
+    trailsViewController *trailsVC;
 }
 
 @end
