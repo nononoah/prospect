@@ -8,6 +8,7 @@
 
 #import "prospectAppDelegate.h"
 #import "trailsTableViewController.h"
+#import "treeIDController.h"
 
 @implementation prospectAppDelegate
 
@@ -25,11 +26,11 @@
             NSArray *controllers = [NSArray arrayWithObjects:
                                     [[trailsTableViewController alloc] initWithStyle: UITableViewStylePlain], 
                                     [[UIViewController alloc] initWithNibName: nil bundle: nil],
-                                    [[UIViewController alloc] initWithNibName: nil bundle: nil],
+                                    [[treeIDController alloc] initWithNibName: nil bundle: nil],
                                     [[UIViewController alloc] initWithNibName: nil bundle: nil],
                                     [[UIViewController alloc] initWithNibName: nil bundle: nil],                                            nil
                                     ];
-            
+    
             //Trails
             
             UITableViewController *viewController = [controllers objectAtIndex: 0];
@@ -61,18 +62,19 @@
 			}
 			[webView loadData: data MIMEType: @"text/html" textEncodingName: @"NSUTF8StringEncoding" baseURL: webUrl];
             
-    		//Nature
+    		//Tree ID
     
     		viewController = [controllers objectAtIndex: 2];
-    		viewController.title = @"Nature";
+    		viewController.title = @"Tree ID";
     		viewController.tabBarItem.image = [UIImage imageNamed: @"NatureIcon.png"];
     		//viewController.view = [[UIImageView alloc] initWithImage: [UIImage imageNamed: @"cotton.png"]];
-    		viewController.view.contentMode = UIViewContentModeCenter;
+    		viewController.view = treeIDVC.view;
+
+
     
     
-   			webView = [[UIWebView alloc] initWithFrame: screen.applicationFrame];
-    		viewController.view = webView;
-    		webView.scalesPageToFit = YES;
+    /*
+   			    		webView.scalesPageToFit = YES;
     
     		webUrl = [NSURL URLWithString: @"http://www.prospectpark.org/environment"];
     		data = [NSData dataWithContentsOfURL: webUrl];
@@ -83,6 +85,7 @@
     		}
     		[webView loadData: data MIMEType: @"text/html" textEncodingName: @"NSUTF8StringEncoding" baseURL: webUrl];
 	    	
+            */
             
             //Visit
     

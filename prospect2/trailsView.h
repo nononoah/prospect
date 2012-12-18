@@ -10,7 +10,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface trailsView: UITextView
+@interface trailsView: UIScrollView
 
-- (id) initWithFrame: (CGRect) frame information: (NSString *) information;
+- (id) initWithFrame: (CGRect) frame information: (NSArray *) information mapName: (NSString *) mapName;
 @end

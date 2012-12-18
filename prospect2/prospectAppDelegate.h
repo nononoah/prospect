@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 @class trailsTableViewController;
+@class treeIDController;
 
 @interface prospectAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 {
     trailsTableViewController *trailsTVC;
+    treeIDController *treeIDVC;
 }
 
 @property (strong, nonatomic) UIWindow *window;

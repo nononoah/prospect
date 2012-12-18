@@ -23,15 +23,70 @@
  }
  */
 
-- (id) initWithFrame: (CGRect) frame information: (NSString *) information
+- (id) initWithFrame: (CGRect) frame information: (NSArray *) information mapName: (NSString *) mapName;
 {
 	self = [super initWithFrame: frame];
 	if (self) {
 		// Initialization code
-		self.backgroundColor = [UIColor orangeColor];
-		self.font = [UIFont systemFontOfSize: 24];
-		self.text = information;
-		self.editable = NO;
+       
+        self.scrollEnabled = YES;
+        NSLog(@"I've received the array %@", [information objectAtIndex: 0]);
+		//self.backgroundColor = [UIColor orangeColor];
+        
+        
+        NSString *fileName = [mapName stringByAppendingString: @"1.png"];
+        UIImageView *map = [[UIImageView alloc] initWithImage: [UIImage imageNamed: fileName]];
+        NSInteger bumpDown = map.frame.size.height;
+        NSLog(@"%i", bumpDown);
+        
+        UIWebView *text = [[UIWebView alloc] initWithFrame: CGRectMake(0, bumpDown, frame.size.width, frame.size.height)];
+		//text.font = [UIFont systemFontOfSize: 16];
+		//text.text = [NSString stringWithFormat: @"Mileage: %@ \nNotables: %@ \nDescription: %@ \n",[information objectAtIndex: 0], [information objectAtIndex: 1], [information objectAtIndex: 2]];
+		//text.editable = NO;
+        
+        NSLog(@"text height %f", text.frame.size.height);
+        
+       	CGFloat totalHeight = bumpDown + text.frame.size.height /2;
+        NSLog(@"total height %f", totalHeight);
+        
+        
+        NSString *html = [NSString stringWithFormat:
+                          @"<HTML>"
+                          "<HEAD>"
+                          "<META NAME = \"viewport\" CONTENT = \"width = device-width\">"
+                          "<STYLE TYPE = \"text/css\">"
+                          "</STYLE>"
+                          "</HEAD>"
+                          
+                          "<BODY STYLE = \"background-color: white; margin: 0px;\">"
+                          
+                          "<p>"
+                          "<b>Mileage:</b> %@"
+                          "</p>"
+                          
+                          "<p>"
+                          "<b>Notables:</b> %@"
+                          "</p>"
+                          
+                          "<p>"
+                          "<b>Description:</b> %@"
+                          "</p>"
+                          ""
+                          "</BODY>"
+                          "</HTML>", [information objectAtIndex: 0], [information objectAtIndex: 1], [information objectAtIndex: 2]];
+        
+		[text loadHTMLString: html baseURL: nil];
+      
+        
+        
+        
+        [self setContentSize: CGSizeMake(320, 765)];
+        [self addSubview: map];
+        [self addSubview: text];
+        
+        //[view addSubview:text];
+        //[self addSubview:view];
+
 	}
 	return self;
 }

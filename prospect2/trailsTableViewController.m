@@ -20,8 +20,8 @@
 		// Custom initialization
         trails = [NSArray arrayWithObjects:
                   @"Loop",
-                  @"East Loop and Center Drive",
                   @"West Loop and Center Drive",
+                  @"East Loop and Center Drive",
                   @"The Grassy Loop",
                   @"Long Meadow",
                   @"Lakeside",
@@ -232,7 +232,7 @@
     }
     
 
-    trailsVC = [[trailsViewController alloc] initWithTitle: [trails objectAtIndex: correctCell] information: @"hi"];
+    trailsVC = [[trailsViewController alloc] initWithTitle: [trails objectAtIndex: correctCell] information: correctCell];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController: trailsVC];
     
 	[self presentModalViewController: navigationController animated: YES];

@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface trailsViewController: UIViewController {
-	NSString *information;
+	NSInteger information;
     NSArray *trailInfo;
 }
 
-- (id) initWithTitle: (NSString *) title information: (NSString *) i;
+- (id) initWithTitle: (NSString *) title information: (NSInteger) i;
 @end
